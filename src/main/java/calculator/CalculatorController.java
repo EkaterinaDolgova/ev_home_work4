@@ -25,7 +25,7 @@ public class CalculatorController {
     @GetMapping(path = "/calculator/minus")
     public String CalculatorMinus(@RequestParam("num1") Integer num1, @RequestParam("num2") Integer num2) {
         return calculatorServiсe.CalculatorMinus(num1, num2);
-    }
+    Ъ
 
     @GetMapping(path = "/calculator/multiply")
     public String CalculatorMultiply(@RequestParam("num1") Integer num1, @RequestParam("num2") Integer num2) {
