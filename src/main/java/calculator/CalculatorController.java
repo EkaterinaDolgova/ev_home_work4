@@ -16,7 +16,6 @@ public class CalculatorController {
     public String Calculator() {
         return calculatorServiсe.Calculator();
     }
-
     @GetMapping(path = "/calculator/plus")
     public String CalculatorPlus(@RequestParam("num1") Integer num1, @RequestParam("num2") Integer num2) {
         return calculatorServiсe.CalculatorPlus(num1, num2);

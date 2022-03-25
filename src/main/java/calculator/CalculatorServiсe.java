@@ -7,7 +7,6 @@ public class CalculatorServiсe {
     public String Calculator() {
         return "<b><i>Добро пожаловать в калькулятор</i></b>";
     }
-
     public String CalculatorPlus(Integer num1, Integer num2) {
         int sum = num1 + num2;
         return num1 + "+" + num2 + "=" + sum;
